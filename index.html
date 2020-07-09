@@ -1,0 +1,392 @@
+<!doctype html>
+
+<!-- If multi-language site, reconsider usage of html lang declaration here. -->
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+
+  <title>Client</title>
+
+  <!-- 120 word description for SEO purposes goes here. Note: Usage of lang tag. -->
+  <!-- <meta name="description" lang="en" content=""> -->
+
+  <!-- Keywords to help with SEO go here. Note: Usage of lang tag.  -->
+  <!-- <meta name="keywords" lang="en" content=""> -->
+
+  <!-- View-port Basics: http://mzl.la/VYREaP -->
+  <!-- This meta tag is used for mobile device to display the page without any zooming,
+         so how much the device is able to fit on the screen is what's shown initially. 
+         Remove comments from this tag, when you want to apply media queries to the website. -->
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> -->
+
+  <!-- To adhear no-cache for Chrome -->
+  <!--   <meta http-equiv="cache-control" content="no-store, no-cache, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-store, no-cache" />
+    <meta http-equiv="Expires" content="0" /> -->
+
+  <!-- Place favicon.ico in the root directory: mathiasbynens.be/notes/touch-icons -->
+  <link rel="shortcut icon" href="favicon.ico" />
+
+  <!--font-awesome link for icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Default style-sheet is for 'media' type screen (color computer display).  -->
+  <link rel="stylesheet" media="screen" href="assets/css/style.css">
+
+  <!-- html5shiv aka html5 shim. Supporting HTML5 and CSS for IE browsers less than IE9. -->
+  <!--[if lt IE 9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>  
+    <![endif]-->
+
+  <link rel="stylesheet" type="text/css" href="assets/css/slick-1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/slick-1.8.1/slick/slick-theme.css" />
+</head>
+
+<body>
+  <!--container start-->
+  <div class="container">
+    <!--header section start-->
+    <header>
+      <div class="menu_head">
+        <nav>
+          <ul class="menu_links">
+            <li><a href="#FIXME" title="home"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+            <li><a href="#FIXME" title="experiences">experiences</a></li>
+            <li><a href="#FIXME" title="movies">movies</a></li>
+            <li><a href="#FIXME" title="events">events</a></li>
+            <li><a href="#FIXME" title="plays">plays</a></li>
+            <li><a href="#FIXME" title="sports">sports</a></li>
+            <li><a href="#FIXME" title="best of 2017">best of 2017<span>new</span></a></li>
+          </ul>
+          <ul class="menu_links">
+            <li><a href="#FIXME" title="offers">offers</a></li>
+            <li><a href="#FIXME" title="giftcards">gift cards</a></li>
+            <li><a href="#FIXME" title="corporates">corporates</a></li>
+            <li><a href="#FIXME" title="support">support</a></li>
+            <li><a href="#FIXME" title="bell"><i class="fa fa-bell" aria-hidden="true"></i></a></li>
+            <li><a href="#FIXME" title="sign in">sign in</a></li>
+            <li><a href="#FIXME" title="Mumbai"><i class="fa fa-map-marker"  aria-hidden="true"></i>mumbai</a></li>
+          </ul>
+        </nav>
+        <div class="menu">
+          <div class="logo">
+            <h1><a href="#index.html" title="logo"><img src="images/logo.png" alt="logo"></a></h1>
+          </div>
+          <ul class="dropdown">
+            <li>
+              <select>
+                <option>all</option>
+              </select>
+            </li>
+            <li>book ticket for movies,events,plays and sports</li>
+          </ul>
+          <ul class="language">
+            <li><a href="#index.html" title="arijit-singh"><img src="images/arijit-singh.png" alt="arijit-singh"></a>
+            </li>
+            <li>
+              <select>
+                <option>English</option>
+              </select>
+            </li>
+          </ul>
+        </div>
+        <ul class="campaigns">
+          <li><a href="#FIXME" title="usecases">use-cases</a></li>
+          <li><a href="#FIXME" title="campaigns">campaigns</a></li>
+          <li><a href="#FIXME" title="products">products</a></li>
+          <li><a href="#FIXME" title="watch-video">watch-video</a></li>
+        </ul>
+      </div>
+    </header>
+    <!--header section end-->
+    <!--main section start-->
+    <main>
+      <section class="voucher_details">
+        <div class="wrapper">
+          <h3>bookmyshow voucher enquiry</h3>
+          <span class="dash"></span>
+          <div class="voucher_enquiry">
+            <div class="corporate">
+              <a href="#index.html" title="corporate-vouchers"><img src="images/corporate-vouchers.png"
+                  alt="corporate-vouchers"></a>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                It has survived not only five centuries,but also the leap into electronic typesetting,
+                remaining essentially unchanged.</p>
+              <div class="reel">
+                <div>
+                  <figure><img src="images/cv-reel.png" alt="cv-reel"></figure>
+                </div>
+                <div>
+                  <p>download brochure</p>
+                </div>
+              </div>
+            </div>
+            <form>
+              <ul>
+                <li><input type="text" name="fullname" placeholder="*full name"></li>
+                <li><input type="number" name="mobile" placeholder="*mobile number"></li>
+              </ul>
+              <ul>
+                <li><input type="text" name="companyname" placeholder="*company name"></li>
+                <li><input type="email" name="email id" placeholder="*official email id"></li>
+              </ul>
+              <ul>
+                <ul class="checked">
+                  <li><input type="checkbox">I'm not a robot
+                  <li><img src="images/captcha.gif" alt="captcha"></li>
+                </ul>
+                <li><input type="button" id="btn" value="submit"></li>
+              </ul>
+            </form>
+          </div>
+
+          <div class="campaigns_inner">
+            <h3>campaigns</h3>
+            <span class="dash"></span>
+            <div class="flex-container">
+              <div class="campaign_list">
+                <figure><img src="images/generation.png" alt="generation"></figure>
+                <p>test drive promotions</p>
+                <p>lead generation</p>
+              </div>
+              <div class="campaign_list">
+                <figure><img src="images/exclusives.png" alt="exclusives"></figure>
+                <p>old select exclusives</p>
+                <p>loyalty</p>
+              </div>
+              <div class="campaign_list">
+                <figure><img src="images/activation.png" alt="activation"></figure>
+                <p>acuvue campaign activation</p>
+                <p>brand promotions</p>
+              </div>
+              <div class="campaign_list">
+                <figure><img src="images/generation.png" alt="generation"></figure>
+                <p>test drive promotions</p>
+                <p>lead generation</p>
+              </div>
+              <div class="campaign_list">
+                <figure><img src="images/exclusives.png" alt="exclusives"></figure>
+                <p>old select exclusives</p>
+                <p>loyalty</p>
+              </div>
+              <div class="campaign_list">
+                <figure><img src="images/activation.png" alt="activation"></figure>
+                <p>acuvue campaign activation</p>
+                <p>brand promotions</p>
+              </div>
+            </div>
+            <div class="arrow">
+              <a href="#FIXME" class="prev" title="left"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+              <a href="#FIXME" class="next" title="right"><i class="fa fa-chevron-right next" aria-hidden="true"></i></a>
+            </div>
+          </div>
+
+          <div class="products">
+            <h3>products</h3>
+            <span class="dash"></span>
+            <div class="products_category">
+              <ul class="products_list">
+                <li>movie pack</li>
+                <li>gift vouchers</li>
+                <li>winpins</li>
+              </ul>
+              <ul class="products_details">
+                <li>
+                  <figure><img src="images/movie-pack.png" alt="movie-pack"></figure>
+                </li>
+                <li>
+                  <p>Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    It has survived not only five centuries, but also the leap into electronic typesetting,
+                    remaining essentially unchanged.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="testimonials">
+            <h3>testimonials</h3>
+            <span class="dash"></span>
+            <div class="testimonials_inner">
+              <div class="testimonials_list">
+                <figure><img src="images/mc-logo.png" alt="mc-logo"></figure>
+              </div>
+              <div class="testimonials_list">
+                <figure><img src="images/cm-logo.png" alt="cm-logo"></figure>
+              </div>
+              <div class="testimonials_list">
+                <figure><img src="images/hp.png" alt="hp"></figure>
+              </div>
+              <div class="testimonials_list">
+                <figure><img src="images/mc-logo.png" alt="mc-logo"></figure>
+              </div>
+              <div class="testimonials_list">
+                <figure><img src="images/cm-logo.png" alt="cm-logo"></figure>
+              </div>
+              <div class="testimonials_list">
+                <figure><img src="images/hp.png" alt="hp"></figure>
+              </div>
+            </div>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took
+              a galley</p>
+            <p>Abhijit Ghosh,Regional Marketing Managermahindra Holidays and Resorts India Ltd.</p>
+            <div class="arrow_inner">
+              <a href="#FIXME" class="left" title="left"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+              <a href="#FIXME" class="right" title="right"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+            </div>
+          </div>
+
+          <div class="faqs">
+            <h3>faqs</h3>
+            <span class="dash"></span>
+            <ul class="faqs_list">
+              <li>gift voucher</li>
+              <li>winpins</li>
+              <li>movie packs</li>
+              <li>general queries</li>
+            </ul>
+            <!-- <ul class="voucher_info">
+              <li><i class="fa fa-chevron-right" aria-hidden="true"></i>what is a gift-voucher?</li>
+              <li><i class="fa fa-chevron-right" aria-hidden="true"></i>what can i use a gift-voucher for?</li>
+              <li><i class="fa fa-chevron-right" aria-hidden="true"></i>is there a limit on the number of vouchers that must be booked?</li>
+              <li><i class="fa fa-chevron-right" aria-hidden="true"></i>what is the validity period of a gift-voucher?</li>
+              <li><i class="fa fa-chevron-right" aria-hidden="true"></i>can gift-voucher can be redeemed against loyalty or reward points?</li>
+            </ul> -->
+          </div>
+        </div>
+      <div class="faq">
+        <div class="accordion">
+          <a href="#FIXME"><i class="fa fa-chevron-right" aria-hidden="true"></i>what is a gift-voucher?</a>
+        </div>
+        <div class="panel">
+            <p class="panel_info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class="accordion">
+          <a href="#FIXME"><i class="fa fa-chevron-right" aria-hidden="true"></i>what can i use a gift-voucher for?</a>
+        </div>
+        <div class="panel">
+            <p class="panel_info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class="accordion">
+          <a href="#FIXME"><i class="fa fa-chevron-right" aria-hidden="true"></i>is there a limit on the number of vouchers that must be booked?</a>
+        </div>
+        <div class="panel">
+            <p class="panel_info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class="accordion">
+          <a href="#FIXME"><i class="fa fa-chevron-right" aria-hidden="true"></i>what is the validity period of a gift-voucher?</a>
+        </div>
+        <div class="panel">
+            <p class="panel_info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class="accordion">
+          <a href="#FIXME"><i class="fa fa-chevron-right" aria-hidden="true"></i>can gift-voucher can be redeemed against loyalty or reward points?</a>
+        </div>
+        <div class="panel">
+            <p class="panel_info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+      </div>
+      </div>
+    </section>
+    </main>
+    <!--main section end-->
+
+    <!--footer section start-->
+    <footer>
+      <div class="events_details">
+        <div class="events_inner">
+          <ul class="videos">
+            <h4>videos</h4>
+            <li><a href="#FIXME" title="trailers">trailers</a></li>
+            <li><a href="#FIXME" title="mybollywood">mybollywood</a></li>
+            <li><a href="#FIXME" title="mytv">mytv</a></li>
+            <li><a href="#FIXME" title="mystyle">mystyle</a></li>
+            <h4>events calendar</h4>
+            <ul class="events_calendar">
+              <li><a href="#FIXME" title="events near me today">events near me today</a></li>
+              <li><a href="#FIXME" title="events happening tomorrow">events happening tomorrow</a></li>
+              <li><a href="#FIXME" title="events this weekend">events this weekend</a></li>
+              <li><a href="#FIXME" title="events next weekend">events next weekend</a></li>
+            </ul>
+          </ul>
+          <ul class="online_booking">
+            <h4>events tickets booking online</h4>
+            <li><a href="#FIXME" title="mumbai_events">upcoming events in mumbai</a></li>
+            <li><a href="#FIXME" title="delhi_events">upcoming events in delhi</a></li>
+            <li><a href="#FIXME" title="bangluru_events">upcoming events in bangluru</a></li>
+            <li><a href="#FIXME" title="chennai_events">upcoming events in chennai</a></li>
+            <li><a href="#FIXME" title="hydrabad_events">upcoming events in hydrabad</a></li>
+            <li><a href="#FIXME" title="pune_events">upcoming events in pune</a></li>
+            <li><a href="#FIXME" title="noida_events">upcoming events in noida</a></li>
+            <li><a href="#FIXME" title="ahemdabad_events">upcoming events in ahemdabad</a></li>
+          </ul>
+          <ul class="movies">
+            <h4>movies,cities and celebrity</h4>
+            <li><a href="#FIXME" title="latest movies">latest upcoming movies</a></li>
+            <li><a href="#FIXME" title="best movies">best now showing movies</a></li>
+            <li><a href="#FIXME" title="cinemas & theatres">cinemas & theatres</a></li>
+            <li><a href="#FIXME" title="celebrities">movie stars and celebrities</a></li>
+            <li><a href="#FIXME" title="cinema chains">cinema chains</a></li>
+            <li><a href="#FIXME" title="all regions cinemas">all regions cinemas</a></li>
+          </ul>
+          <ul class="archieved_collection">
+            <h4>archieved collection</h4>
+            <li><a href="#FIXME" title="old_movies">old movies</a></li>
+            <li><a href="#FIXME" title="past_events">past events</a></li>
+            <li><a href="#FIXME" title="classic_sport_events">classic sport events</a></li>
+            <li><a href="#FIXME" title="old_theatre_plays">old theatre plays</a></li>
+            <li><a href="#FIXME" title="cinema_chains">cinema chains</a></li>
+            <li><a href="#FIXME" title="best_of_2017">best of 2017</a></li>
+            <h4>countries</h4>
+            <ul class="countries">
+              <li><a href="#FIXME" title="indonesia">indonesia</a></li>
+              <li><a href="#FIXME" title="new zealand">new zealand</a></li>
+              <li><a href="#FIXME" title="uae">uae</a></li>
+              <li><a href="#FIXME" title="sri lanka">sri lanka</a></li>
+            </ul>
+          </ul>
+        </div>
+        <div class="footer_logo">
+          <h6><a href="index.html" title="logo"><img src="images/logo.png" alt="bookmyshow"></a></h6>
+        </div>
+        <ul class="footer_icons">
+          <li><a href="#FIXME" target="_blank" title="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          </li>
+          <li><a href="#FIXME" target="_blank" title="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          <li><a href="#FIXME" target="_blank" title="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          </li>
+          <li><a href="#FIXME" target="_blank" title="youtube"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+          </li>
+          <li><a href="#FIXME" target="_blank" title="pinterest"><i class="fa fa-pinterest-p"
+                aria-hidden="true"></i></a></li>
+          <li><a href="#FIXME" target="_blank" title="google_plus"><i class="fa fa-google-plus"
+                aria-hidden="true"></i></a></li>
+          <li><a href="#FIXME" target="_blank" title="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          </li>
+        </ul>
+        <div class="reserved">
+          <p>copyright 2018 &copy;bigtree entertainment pvt ltd.all rights reserved.</p>
+          <p>contrary to popular belief,lorem ipsum is not simply random text.it has roots in a piece of classical latin
+            literature from 45bc, making it over 2000 years old. it has roots in a piece of classical latin literature
+            from 45bc, making it over 2000 years old.</p>
+        </div>
+      </div>
+    </footer>
+    <!--footer section end-->
+
+  </div>
+  <!--container end-->
+  <script src="assets/vendor/jquery-3.5.1.min.js"></script>
+  <script src="assets/js/script.js"></script>
+  <script type="text/javascript" src="assets/js/slick.js"></script>
+  <script type="text/javascript" src="assets/js/slick.min.js"></script>
+
+</body>
+
+</html>
